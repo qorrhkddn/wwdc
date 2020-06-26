@@ -1,0 +1,441 @@
+Hello and welcome to WWDC.
+
+ Hi, welcome to Designing Great App Clips.
+
+ I'm Grant Paul from the Apple Design Team, and I'm going to be joined shortly by my colleague Heena Ko.
+
+ Today we're going to talk about all of the pieces that you need in order to design great app clips.
+
+ I hope you're as excited about app clips as we are, so let's get started.
+
+ First off, we're going to go into a little bit more detail about what exactly app clips are, and how they relate to the apps that you already have.
+
+ Then, we're going to talk about how people actually get into app clips, since unlike with apps they don't start by going to the App Store.
+
+ And finally, we'll talk about what features should go into a great app clip, and what you need to know in order to design your user interfaces for them.
+
+ So what are app clips? App clips are lightweight versions of apps.
+
+ They offer some of an apps functionality and they offer it when and where people need it.
+
+ They're fully native experiences and they use all of the same technologies that you already know from your apps.
+
+And since app clips are lightweight, you can use them instantly.
+
+ You don't have to download or install an app at all.
+
+ In fact, app clips are meant for people who haven't downloaded your app yet.
+
+ They might not even know what it is.
+
+ Now unlike apps, which you usually get by browsing or searching in the App Store, app clips show up right when you need them.
+
+ They're found through codes and tags out in the world, including some new codes we've designed just for app clips.
+
+ App clips can also come from places and apps that are built into iOS, things like Maps and Safari.
+
+ We're going to talk more in a little bit about some best practices for when your app clips show up in each of these places.
+
+ Now last but not least, app clips don't stick around when you're done using them.
+
+ Once you swipe an app clip away, you're done with it, you don't need to manage it or clear it out to save space or delete it off your device, it's all going to be handled for you.
+
+And if you do need an app clip again, you can always just get back to it the same way that you got there in the first place.
+
+ But if you want faster access, you can download that app clips corresponding app to your home screen, and that'll be able to do everything the app clip does as well as some extra things that only the app can do.
+
+ So that's what app clips are, now let's talk about what they look like.
+
+ Of course, this here is an app icon which should be pretty familiar by now.
+
+ And this is what that app icon looks like as an app clip.
+
+ The border is generated automatically from the icon you provide.
+
+ So when you're making your app icon there's nothing special at all that you need to do for app clips.
+
+ So here's what it looks like to use an app clip in practice.
+
+ Let's say you tap your phone to an NFC tag.
+
+ You'll instantly get an app clip card with information that tells you all about what the app clip is and what it can do.
+
+ And if you want to use the app clip, all you need to do is tap Open.
+
+ Once you tap Open, the app clip card slides off, the app clip finishes loading, and you're all ready to go.
+
+ That's how easy it is and how fast it is to use an app clip.
+
+And app clips can be used for anything.
+
+ We're going to cover a bunch of ideas in this session of different categories and different use cases that you can use app clips for.
+
+ What we're even more excited about than any of those, are all of the ideas that we've never thought of, that developers - you - are going to make.
+
+ It's just like all of the incredible, creative and amazing apps that we've seen on the App Store.
+
+ We hope that app clips are going to open up places that weren't possible before and spur new ideas just like apps did.
+
+ One of those places that app clips can open up is for small businesses.
+
+Now small businesses often don't have the resources to make an entire app by themselves.
+
+ So instead, the small businesses usually show up as a small part of a bigger app that's under a different brand.
+
+ Think about an app for delivering ice cream.
+
+ So to order from an ice cream shop in this app, you need to go into the delivery app first and then find the shop that you want.
+
+What people want to do is interact with the business that they already know, they don't want to download and learn about another app just in order to order their ice cream.
+
+ App clips can help.
+
+ When you have an app clip you make a custom experience for the small business, an experience that uses that small businesses own branding along with some attribution back to the app clip.
+
+ That lets the experience feel like it's coming from that small business.
+
+So we're really excited to see how this can bring the power of app clips and bring the power of apps to more businesses where they couldn't work before.
+
+So that's what app clips are and what they're for.
+
+ Now I want to talk about how you find app clips and how you get into them.
+
+ As I mentioned before, unlike with apps you don't find app clips by going to the App Store and searching for them by name or browsing through categories.
+
+ Instead, the way you find app clips is in context.
+
+ You find them right when and where you need them.
+
+ And one of the ways that you do that is through physical tags.
+
+Now app clips support many different kinds of physical tags: they support our new App Clip Codes, they support other kinds of NFC tags, and they also support your standard QR codes.
+
+ These new app clip codes are the most visible way for people to get into app clips.
+
+ They have a consistent appearance so they can become instantly recognizable as leading to a great app clip experience once you scan it.
+
+ When people see one, because they're instantly recognizable, they'll know exactly what to do right away.
+
+ Now these codes are also flexible.
+
+In the middle, there's an NFC tag, which you can use just by holding your iPhone up to the tag.
+
+ And there's a visual code on the outside around it, which can be useful if you can't get up close, maybe because the code is on a billboard or a poster or just out of reach or something like that.
+
+ And this is what they look like physically.
+
+ You can see how the app clip code is placed on the table, so it's easy to see and notice right when you need it.
+
+We're going to have some more information available soon on how you can make and place your own app clip codes.
+
+ A really important part of using any kind of physical tag is to use a different tag for each way into your app clip.
+
+ So let's say a coffee shop has four locations.
+
+ If you go to the location in Cupertino, it should use a different tag than all of the other locations.
+
+That way, the app clip can know to show the menu for the Cupertino location automatically rather than making you have to pick a location first.
+
+ You can also use different tags from within a location.
+
+ For example, each table at the Cupertino shop could have a different tag on it so the app clip automatically knows not just which location you're at, but also which table that your order should go to.
+
+ It saves the step and this makes your app click faster.
+
+But it also means there's no chance that someone is going to accidentally pick the wrong location, or pick the wrong table in your app clip, because it's all handled for them automatically.
+
+ Now in addition to placing physical tags, you can also attach app clips to locations.
+
+ If you do that for your app clip, you might start showing up in maps which lets people use the app clip before they actually get to the place itself.
+
+ For example, a food app like Panera Bread here can let you pre-order or you can order takeout before you actually go over to that location.
+
+ If an app clip ends up being especially useful, or popular and relevant to a specific place, it can get selected to show up automatically in Siri Suggestions.
+
+ That means both in the widget on the home screen and in Siri Suggestions in Spotlight.
+
+That way people can start getting into your app clip without having to scan anything first or even find a tag or a code to get in.
+
+ So that's how you you can get into app clips from physical tags and from locations.
+
+ Next, I want to talk about getting to app clips from different places on your device.
+
+Now some app clip experiences don't have a physical location that makes sense to put tags where they could be associated with in Maps and that's totally great too.
+
+ App clips are going to work just as well with experiences that are totally virtual and that take place entirely on the device.
+
+ So the way that you find those out clip experiences is from the Smart App banner in Safari.
+
+ If you have a website, and you also have an app clip, you can add a smart app banner to the top of your page.
+
+ And if you do, people can start going straight into your app clip as soon as they press the button.
+
+So for example, what you see here, Etsy can put a smart app banner on their detail page to jump right into their app clip.
+
+ And of course if someone has their app installed, the banner will take people to the app instead to get all the features of the app in addition to what the app clip can do.
+
+So when would you show a smart app banner in Safari versus having people, for example, just use your website? Well there's two main reasons.
+
+ One of them is that when you make an app clip, just like when you make an app, it's often going to be a better experience than what you'll find on a website.
+
+App clips use native system controls, so people already know how to use them and they're faster to learn.
+
+ And of course, just like apps, app clips are really fast and responsive.
+
+ It's really the same great user experience, that's why people go to the App Store to download your apps today.
+
+ Now the second reason is that app clips enable new types of experiences that are either hard or impossible to make on the web but with apps are really common and easy to do.
+
+ For example, think of something like recording and editing a video, it's not common on the web but with the power of the iOS frameworks it's simple to do in your app.
+
+ Similarly, you can do things like connect to a device with Bluetooth or show interactive 3D scenes in augmented reality.
+
+ App clips have all of the power of apps available to you right away.
+
+And just like with physical tags, when you use a smart app banner it's important to launch into the right part of your app clip automatically.
+
+ So in this example, Etsy will launch right into the part of their app clip for the product being shown in Safari below.
+
+ That saves people from having to navigate back to that product from inside the app clip.
+
+ There's also one last place that you might see app clips.
+
+ If you have a page with a smart app banner and you share a link to that page in messages, people can go directly from messages right into the app clip.
+
+ And what's great about that, is that people can start sharing your app clip with the people they know, which lets people organically discover your app clip and also discover your app through it.
+
+So that's the smart app banner in Safari and how it ties into messages.
+
+Now the next step after you find an app clip, is to use it.
+
+ And every time you use an app clip, the first thing you're going to see is the app clip card.
+
+The app clip card is like the product page in the App Store.
+
+ It's your chance to show off what it is that your app clip can do, to introduce your app clip to people and to let people know why they should start using it.
+
+ So let's say you tap your phone on an app clip code.
+
+ As with all of the other ways that you can get into an app clip, the first thing you're going to see is the app clip card.
+
+ All app clip cards have the same general shape but they have a few different parts that you can customize.
+
+ Let's look at the different pieces and how you can customize them.
+
+ So the most important part of your app clip card to customize is the title.
+
+ The title is what tells people what your app clip is.
+
+ Now for most app clips, this is going to be the same as the name of your app or the name of your brand.
+
+ Now sometimes, it can be worth using a more specific title for your app clip.
+
+ If your app clip focuses on a single feature out of your app, you can use that feature as part of your title.
+
+ For example, if you have a music listening app but your app clip for it is all about radio, you might put Radio in as part of the app clip experiences title.
+
+ Now if the title is the brand of your app clip, the subtitle is where you get to explain what it is that your app clip does.
+
+ Remember that when people are using your app clip it's often going to be the first time they're having any interaction with your app or with your brand.
+
+They may not know what your name means.
+
+ They're gonna need an explanation of what it is that your app clip is there to do and that's what you can put in the subtitle.
+
+ Next up is the header image.
+
+ Now the header image is your chance to show visually what it is that you can get out of your app clip.
+
+ If your app clip is attached to something physical, like a real world location or a service, a photo of that location or service can make for a great header image.
+
+ But if it's not attached to anything physical, you can always make a great graphic version of your logo or some part of your brand.
+
+ Either way, you should always stick to either a photograph or some kind of custom graphic.
+
+ You should never use screenshots or fill it up with lots of text since both of those can be really hard to read in the small space available on your app clip card.
+
+ Now after the header image there's one more piece that you can customize.
+
+ The button on the right of the app clip card represents the action that people are going to take when they open up your app clip on their device.
+
+ So right now we have three options available to you for the action button: Open, View and Play.
+
+ Now if you're making a general app clip, the usual one that you're going to pick is Open.
+
+ It's the default choice.
+
+ But if you have an app clip that's all about showing information or visualizing something, the View action can be a good one to pick.
+
+ And of course, Play is great for things like media and games.
+
+ Now beyond these three we're looking to hear what additional action labels will be useful to you.
+
+ So as you come up with ideas for app clips, let us know in Feedback Assistant what else we could add.
+
+ Finally, at the bottom of the op clip card is the attribution back to the app clips corresponding app.
+
+ Tapping in here takes you to the App Store so you can get the app where you can see more information about it, like who developed it or what the privacy policy is.
+
+ If you want to customize this section, that means changing your apps metadata.
+
+ So that's how people discover app clips.
+
+It can be from physical tags like our app clip codes, NFC tags and QR codes.
+
+You can use the Smart App banner in Safari to offer your app clip when it has a new or a better experience than what you could get from the webpage.
+
+You should make sure to launch into the right part of your app clip to skip unnecessary navigation when the context is already clear from the specific tag or page that the app clip is coming from.
+
+ And finally, make sure to be thoughtful in how you introduce people to your app clip on your app clip card.
+
+ You should use clear language and great imagery.
+
+ Now that you have a sense of what app clips are and how you get into them, I'll hand it over to my colleague Heena to talk about how to design the content for inside your app clips.
+
+Hi my name is Heena and I'll be talking to you today about designing app clips.
+
+Let's first talk about what goes into a great app clip.
+
+ So the most important thing to remember is that great app clips are simple, their focus experience is made for accomplishing a task.
+
+ Great app clips are fast.
+
+ Not only are they quick to load, the flow should be as quick and streamlined as possible.
+
+So when you're about to create an app clip, you want to have three main things in mind.
+
+ First, decide what the purpose is, whether it's renting a scooter or buying ice cream, think about what the single task your app clip accomplishes.
+
+Second, think about what the absolute minimum flow is to accomplish that task.
+
+Remember app clips are in the moment experiences so the flow should be focused and efficient.
+
+ Consider using technologies like Apple Pay and Sign In with Apple for a more seamless experience.
+
+ Lastly, you can offer the full app for more features.
+
+ Remember app clips should be useful in isolation but if you want to offer it, we made something so you can do that easily.
+
+OK so let's walk through some examples.
+
+ Let's say you're making an app clip for a cafe where you can order head to get coffee to-go.
+
+ The minimum flow here could include the ability to browse the menu and order.
+
+ Then, pay for your coffee with Apple Pay.
+
+ Then, after the transaction is complete and you demonstrated the value of your app clip, you could offer to download the full app.
+
+ It's important here to clearly explain the additional benefits that the full app offers.
+
+ This next example is a parking app that allows you to pay for a parking space in various parking garages.
+
+ The minimum flow here could be to provide the ability to pay for your parking space for a certain amount of time.
+
+ Then, you could send a notification saying that the time is about to expire.
+
+ Tapping on that notification could allow you to extend your time remotely, so you don't have to walk back to your car.
+
+OK, let's move on to this next example.
+
+ Let's say you're setting up an online store, like this one where you can shop for accessories.
+
+ The flow here could include a simple shopping experience where you can browse and add items to a shopping cart.
+
+After the transaction is complete, you could offer Sign In with Apple so folks can get notified of sales and save their favorite items.
+
+ This is an example of a restaurant app clip that allows you to order and pay, right from your table.
+
+ It's important to note that this kind of experience requires that you distribute unique app clip codes to each table for your patrons to scan.
+
+ So once the code's been scanned, the experience here can include: a simple menu to browse the dishes, and the ability to continuously add items to your order, then a checkout experience with Apple Pay.
+
+ Lastly, after you've proven how great of an experience your app clip is, offer the full app here so people could order ahead, get takeout, and delivery.
+
+ Has it sunk in yet? Great! This last example is an AR experience, where you can use a camera to identify the names of mountains and peaks around you.
+
+So here the experience could include: a simple camera view and a way to augment that view with annotations and information about your surroundings.
+
+ And lastly, you might want to include a way to share that view with friends.
+
+ So those are the essentials of what goes into an app clip.
+
+ At this point, you're probably wondering - so I have an app, how do I turn my app into an app clip? Well, the first step is to focus on a specific task.
+
+ Let's take this coffee shop app.
+
+ It's got lots of features.
+
+ You can order, save your favorite drinks, look up stores near you, you can even create an account.
+
+ And the way to focus that experience is to narrow it down to just a single feature- here we've decided to focus the experience to only ordering.
+
+ The other features, like saving your favorites or looking up other store locations, isn't helpful to the main task of ordering.
+
+ So really you want to simplify the experience and remove elements unrelated to the single task of being able to order and pay for coffee.
+
+ This means no unnecessary app clip intros.
+
+ Resist the temptation to add instructions, introductions, and tutorials before getting into the main flow.
+
+ Avoid using log in or account pages.
+
+ If you need some type of registration, use Sign In with Apple for speed and privacy.
+
+ And with your app clip being so streamlined, you won't need global navigation or lots of tabs.
+
+ And lastly, avoid any type of settings or management.
+
+ OK, so those are the basics of how you turn your app into an app clip.
+
+ Now let's talk about designing UI for app clips, more specifically how to best utilize system components.
+
+App clips have the ability to send notifications.
+
+ It's a great way to relay information that's essential to the experience.
+
+ By default, an app clip can send notifications for up to eight hours after it was first used.
+
+ We think this is enough time to complete most tasks.
+
+ However, if your app clip experience spans more than a day, you could request explicit authorization for an additional week.
+
+ For example, a car rental company could request explicit authorization for a rental that spans multiple days.
+
+ Remember to keep notifications focused on the task.
+
+ Never send any unexpected or promotional notifications, and only send notifications in response to an explicit user action.
+
+ If the entire experience takes place within the app clip itself, you may not even need to send notifications at all.
+
+ If your app clip has transactions, use Apple Pay.
+
+ It's the fastest way to take payments and you don't have to re-enter credit card information or addresses.
+
+ And finally, always promote the full app at the right time.
+
+ And the right time is after the primary task is complete.
+
+ That way your app has had a chance to prove its value.
+
+ Remember, app clips are not a trojan horse for your app, they should have value on their own.
+
+So to wrap up.
+
+ App clips are native lightweight experiences available instantly.
+
+They're in-the-moment experiences that don't stick around and live on the device.
+
+Use app clip codes in the real world for discovery.
+
+ Consider what it means to your app to create touch points in physical spaces.
+
+ And remember to make them highly visible so people can discover them easily.
+
+ Focus your app clip on a specific task and remove all unnecessary elements.
+
+ And because of all the different ways app clips can be discovered, more people can use your app, in clip form, than ever before.
+
+Finally, I recommend checking out the Human Interface Guidelines which includes a section on how to design great app clips.
+
+ I'd also recommend all of the sessions on app clips including the session Configure and Link Your App 
